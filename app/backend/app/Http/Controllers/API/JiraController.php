@@ -25,7 +25,7 @@ class JiraController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {        
+    { 
         $headers = array(
             'Accept' => 'application/json',
             'Content-Type' => 'application/json'
